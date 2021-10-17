@@ -4,7 +4,6 @@ import org.hexagonal.sample.domain.Joke;
 import org.hexagonal.sample.entity.JokeEntity;
 import org.hexagonal.sample.mapper.JokeMapper;
 import org.hexagonal.sample.service.JokeSourcePort;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

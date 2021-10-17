@@ -9,6 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories
 @PropertySource("repository-application.properties")
 @Configuration
-class JpaRepositoryConfig {
+public class JpaRepositoryConfig {
 
 }
